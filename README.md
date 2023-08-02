@@ -9,14 +9,16 @@ It will not gather any personal information nor try or will harm user identity o
 
 #1. Open Powershell ISE as administrator.
 
-#2. Copy the script into the powershell ISE
+#2. Download the script https://github.com/Sugyn/MSFS2020-CrashDump-Tool/releases/tag/v0.0.1-Alpha
 
-#3. Run the script
+#3. Copy the script into the powershell ISE
 
-#4. Follow the prompts
+#4. Run the script
 
-#5. Folder with logs should be created and open for you.
+#5. Follow the prompts
 
-#6. Since script is not uploading it anywere, please use this informationg about your recent crash for developers. Create bug ticket and upload files to them.
+#6. Folder with logs should be created and open for you.
 
-#7. Please do not upload it there or anywere else, only for developers. Thank you
+#7. Since script is not uploading it anywere, please use this informationg about your recent crash for developers. Create bug ticket and upload files to them.
+
+#8. Please do not upload it there or anywere else, only for developers. Thank you
