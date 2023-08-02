@@ -9,7 +9,22 @@ function EnableProcdump($processName, $dumpPath) {
 
 # Function to collect event logs
 function CollectEventLogs {
-    # ... (same as before)
+    $logDirectory = "C:\Logs"
+    $logFileName = "FlightSimulator.exe " + (Get-Date).ToString('dd-MM-yy HH-mm') + ".txt"
+    $logPath = Join-Path -Path $logDirectory -ChildPath $logFileName
+ 
+    if (-not (Test-Path -Path $logDirectory)) {
+        New-Item -ItemType Directory -Path $logDirectory | Out-Null
+    }
+ 
+    $eventLog = Get-WinEvent -FilterHashtable @{
+        LogName = 'Application'
+        ProviderName = 'Application Error'
+        Id = 1000
+        Data = "FlightSimulator.exe"
+    } -MaxEvents 10
+
+    # ... (additional processing or output if desired)
 }
 
 # Create the main form
