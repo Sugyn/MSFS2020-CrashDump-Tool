@@ -9,7 +9,7 @@ It will not gather any personal information nor try or will harm user identity o
 
 #1. Open Powershell ISE as administrator.
 
-#2. Download the script https://github.com/Sugyn/MSFS2020-CrashDump-Tool/releases/tag/v0.0.1-Alpha
+#2. Download the script [https://github.com/Sugyn/MSFS2020-CrashDump-Tool/releases/tag/v0.0.1-Alpha](https://github.com/Sugyn/MSFS2020-CrashDump-Tool/blob/main/MSFS2020_CrashDump_and_Event_Log_Checker_v2.ps1)
 
 #3. Copy the script into the powershell ISE
 
